@@ -30,3 +30,10 @@ function appendKitten(name){
    return newKittens
 }
 
+function prependKitten(name){
+   var newKittens = [...kittens]
+   newKittens.unshift(name)
+   return newKittens
+}
+
+
