@@ -3,6 +3,6 @@ const app = "I don't do much."
 var kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name){
-  kittens.append ('Ralph')
+  kittens.append (name)
   return kittens
 }
