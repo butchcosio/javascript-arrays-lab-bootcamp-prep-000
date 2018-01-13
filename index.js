@@ -19,6 +19,6 @@ function destructivelyRemoveLastKitten(name){
 }
 
 function appendKitten (name){
-  return name.
+  return name.unshift(name)
 }
 
