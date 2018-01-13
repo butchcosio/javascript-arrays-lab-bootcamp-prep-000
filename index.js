@@ -38,7 +38,7 @@ function prependKitten(name){
 
 function removeLastKitten(name){
    var newKittens = [...kittens]
-   newKittens.unshift(name)
+   newKittens.pop(name)
    return newKittens
 }
 
