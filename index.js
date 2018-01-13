@@ -4,4 +4,5 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name){
   name.append ('Ralph')
+  return name
 }
